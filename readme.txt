@@ -2,7 +2,7 @@
 Contributors: calculatorio
 Tags: 
 Requires at least: 5.0
-Tested up to: 6.3.0
+Tested up to: 6.4.0
 Stable tag: 1.0.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -12,6 +12,12 @@ Unlock the true value of your investments with our easy-to-use present value cal
 == Description ==
 
 Unlock the true value of your investments with our easy-to-use present value calculator. Make smarter financial decisions now!
+
+__Shortcode__
+
+Use the Present Value Calculator shortcode:
+
+`[ci_present_value_calculator]`
 
 Libraries in use:
 1. https://mathjs.org/
@@ -25,8 +31,11 @@ Libraries in use:
 
 1. Upload the /ci_present_value_calculator/ folder to the /wp-content/plugins/ directory.
 2. Activate the [Present Value Calculator](https://www.calculator.io/present-value-calculator/ "Present Value Calculator Homepage") plugin through the "Plugins" menu in WordPress.
-3. Configure your settings via Appearance > Widgets > Present Value Calculator.
-4. And you're good to go!
+
+== Usage ==
+* Add the shortcode `[ci_present_value_calculator]` to your page or post and configure default mortgage parameters.
+* If you are using widgets, just add the Present Value Calculator to the sidebar through the `Appearance -> Widgets -> Present Value Calculator` menu in WordPress.
+* Add the following code: `<?php display_ci_present_value_calculator(); ?>` to your template where you would like the Present Value Calculator to appear.
 
 == Screenshots ==
 1. The Present Value Calculator Input Form.
