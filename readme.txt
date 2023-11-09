@@ -13,6 +13,8 @@ Unlock the true value of your investments with our easy-to-use present value cal
 
 Unlock the true value of your investments with our easy-to-use present value calculator. Make smarter financial decisions now!
 
+[Present Value Calculator Homepage](https://www.calculator.io/present-value-calculator/ "Present Value Calculator Homepage")
+
 __Shortcode__
 
 Use the Present Value Calculator shortcode:
