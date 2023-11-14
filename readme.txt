@@ -9,41 +9,29 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 Unlock the true value of your investments with our easy-to-use present value calculator. Make smarter financial decisions now!
 
-== Description ==
-
-Unlock the true value of your investments with our easy-to-use present value calculator. Make smarter financial decisions now!
-
 [https://www.calculator.io/present-value-calculator/](https://www.calculator.io/present-value-calculator/)
 
-__Present Value Calculator Shortcode__
+== Usage ==
+
+Add the Present Value Calculator shortcode to your page, post or sidebar:
 
 `[ci_present_value_calculator]`
 
-== Installation ==
+Add the following code to your template where you would like the Present Value Calculator to appear:
 
-1. Upload the /ci_present_value_calculator/ folder to the /wp-content/plugins/ directory.
-2. Activate the [Present Value Calculator](https://www.calculator.io/present-value-calculator/ "Present Value Calculator Homepage") plugin through the "Plugins" menu in WordPress.
-
-== Present Value Calculator Usage ==
-
-* Add the shortcode `[ci_present_value_calculator]` to your page, post or sidebar.
-* Add the following code: `<?php display_ci_present_value_calculator(); ?>` to your template where you would like the Present Value Calculator to appear.
+`<?php display_ci_present_value_calculator(); ?>`
 
 == Screenshots ==
 
 1. The Present Value Calculator Input Form.
 2. The Present Value Calculator Calculation Results.
 
-== Libraries used in Present Value Calculator ==
+== Installation ==
 
-1. https://mathjs.org/
-2. https://katex.org/
-3. https://github.com/aFarkas/lazysizes
-4. https://github.com/RobinHerbots/Inputmask
-5. https://air-datepicker.com/
-6. https://www.chartjs.org/
+1. Upload the Present Value Calculator /ci_present_value_calculator/ folder to the /wp-content/plugins/ directory.
+2. Activate the Present Value Calculator plugin through the "Plugins" menu in WordPress.
 
 == Changelog ==
 
 = 1.0.0 =
-* Initial release
+* Initial release of Present Value Calculator
