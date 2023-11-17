@@ -1,6 +1,6 @@
 === Present Value Calculator by Calculator.iO ===
 Contributors: calculatorio
-Tags: 
+Tags: present value calculator, time value of money, discounted cash flow, pv formula, net present value, investment analysis, financial planning tool, annuity present value, future cash flows, present value interest factor
 Requires at least: 5.0
 Tested up to: 6.4.0
 Stable tag: 1.0.0
