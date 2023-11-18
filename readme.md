@@ -1,4 +1,4 @@
-# Present Value Calculator WordPress Widget by [Calculator.iO](https://www.calculator.io/ "Calculator.iO Homepage")
+# Present Value Calculator Widget for WordPress
 
 Unlock the true value of your investments with our easy-to-use present value calculator. Make smarter financial decisions now!
 
