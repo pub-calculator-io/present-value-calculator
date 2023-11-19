@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: Present Value Calculator by www.calculator.io
+Plugin Name: CI Present value calculator
 Plugin URI: https://www.calculator.io/present-value-calculator/
 Description: Unlock the true value of your investments with our easy-to-use present value calculator. Make smarter financial decisions now!
 Version: 1.0.0

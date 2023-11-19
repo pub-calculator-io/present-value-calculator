@@ -1,4 +1,4 @@
-=== Present Value Calculator by www.calculator.io ===
+=== CI Present value calculator ===
 Contributors: calculatorio
 Tags: present value calculator, time value of money, discounted cash flow, pv formula, net present value, investment analysis, financial planning tool, annuity present value, future cash flows, present value interest factor
 Requires at least: 5.0
