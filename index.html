@@ -149,22 +149,27 @@
                 
                 
                 
-                	<button class="button button--primary ml-auto" onclick="calculate(this)">Calculate</button>
+                	<button class="button button--primary ml-auto" onclick="calculate(this); animateElements();" data-action="calculate" id="action-button">Calculate</button>
                 </div>
                 
                 
                 
                 
-                	<script type="text/javascript" src="./assets/js/calculator.js"></script>
+                
+                
+                	<script type="text/javascript" src="./assets/js/calculator.js" defer></script>
                 <div class="calculator-content calculator-content--gray calculator-content--footer calculator-content--small row tab " data-tab="1">
                 
                 
                 
                 
-                	<button class="button button--primary ml-auto" onclick="calculate2(this)">Calculate</button>
+                	<button class="button button--primary ml-auto" onclick="calculate2(this); animateElements();" data-action="calculate2" id="action-button">Calculate</button>
                 </div>
                 
-                	<script type="text/javascript" src="./assets/js/chart.js" id="chartjs_script"></script>
+                	<script type="text/javascript" src="./assets/js/lib/chartjs/chart.min.js" id="chartjs_lib" defer></script>
+                	<script type="text/javascript" src="./assets/js/chart.js" id="chartjs_script" defer></script>
+                
+                
                 
                 
                 
@@ -182,12 +187,11 @@
         </svg>
         		<p class="calculator-error__title">There was an error with your calculation.</p>
         	</div>
-        	<div class="col" id="error-list">
-        	</div>
+        	<div class="col" id="error-list"></div>
         </div>        <span id="calculator_result"><div class="calculator-result col tab tab--active" data-tab="0">
 	<p class="table-cell table-cell--dark table-cell--only-title">Result</p>
 	<div class="table-cell table-cell--age table-cell--only row">
-		<div class="col chart__text">
+		<div class="col chart__text animate">
 			<p class="result-text">Present Value: <span id="present-value-result">$5,583.95</span></p>
 			<p class="result-text result-text--small-loan">Total Interest: <span id="total-interest-result">$4,416.05</span>
 			</p>
@@ -197,7 +201,7 @@
 <div class="calculator-result col tab" data-tab="1">
 	<p class="table-cell table-cell--dark table-cell--only-title">Result</p>
 	<div class="table-cell table-cell--age table-cell--only row">
-		<div class="col chart__text">
+		<div class="col chart__text animate">
 			<p class="result-text">Present Value: <span id="present-value-result-2">$2,340.51</span></p>
 			<p class="result-text result-text--small-loan">Future Value: <span id="future-value-result-2">$4,191.49</span></p>
 			<p class="result-text result-text--small-loan">Total Interest: <span id="total-interest-result-2">$1,191.49</span>
@@ -235,7 +239,7 @@
 		<table class="result-table">
 			<thead>
 			<tr>
-				<th class="indigo text-center">№</th>
+				<th class="indigo text-center">#</th>
 				<th class="indigo">BEGINNING BALANCE</th>
 				<th class="indigo">INTEREST</th>
 				<th class="indigo">PRINCIPAL</th>

@@ -3,7 +3,6 @@
 Unlock the true value of your investments with our easy-to-use present value calculator. Make smarter financial decisions now!
 
 ![Present Value Calculator Input Form](/assets/images/screenshot-1.png "Present Value Calculator Input Form")
-![Present Value Calculator Calculation Results](/assets/images/screenshot-2.png "Present Value Calculator Calculation Results")
 
 ## Installation
 
